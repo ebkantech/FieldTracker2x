@@ -1,3 +1,4 @@
+import './globals.css'
 export const metadata = {
   title: 'FieldTracker — Daily Progress',
   description: 'Field operations daily progress capture for OmegaERP',
