@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 import { erpGet } from '@/app/lib/erp'
 
-const ALLOWED = new Set(['dashboard', 'work-scope', 'po-history', 'materials', 'logistics', 'sites', 'profile', 'billing'])
+const ALLOWED = new Set(['dashboard', 'work-scope', 'po-history', 'materials', 'logistics', 'sites', 'profile', 'billing', 'quality'])
 
 export async function GET(request, { params }) {
   const path = params.path

@@ -12,6 +12,9 @@ const LINKS = [
   ['/logistics', 'Logistics', '🚚'],
   ['/sites', 'Sites & Location', '📍'],
   ['/', 'Submit Progress', '🛠️'],
+  ['/inspection', 'QA Inspection', '✅'],
+  ['/punch', 'Report Defect', '⚠️'],
+  ['/my-quality', 'My QA & Defects', '🔍'],
 ]
 
 export default function Nav({ children }) {
